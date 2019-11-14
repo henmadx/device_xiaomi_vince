@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_vince.mk
+    $(LOCAL_DIR)/ion_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_vince-user \
-    havoc_vince-userdebug \
-    havoc_vince-eng
+    ion_vince-user \
+    ion_vince-userdebug \
+    ion_vince-eng

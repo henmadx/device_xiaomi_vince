@@ -12,4 +12,4 @@ persist.camera.dual.camera=0
 persist.camera.CDS=off
 
 # maintainer
-ro.havoc.maintainer=Blacksuan19
+ro.ion.maintainer=NitroFuN
