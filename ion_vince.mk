@@ -27,6 +27,8 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION := 1440
 ION_BUILD_TYPE := OFFICIAL
 ION_RELEASE_TYPE := Release
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ion.maintainer = "NitroFuN"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
