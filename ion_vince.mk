@@ -26,6 +26,7 @@ $(call inherit-product, vendor/ion/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION := 1440
 ION_BUILD_TYPE := OFFICIAL
+ION_RELEASE_TYPE := Release
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.ion.maintainer = "NitroFuN"
 
