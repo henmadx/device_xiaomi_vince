@@ -32,4 +32,12 @@
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
     <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+
+    <!-- Smart charging battery percentage -->
+    <bool name="config_deviceSupportSmartCharging">true</bool>
+    <integer name="config_smartChargingBatteryLevel">80</integer>
+    <integer name="config_smartChargingBatteryResumeLevel">60</integer>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 </resources>
