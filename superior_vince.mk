@@ -46,3 +46,6 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ1B.200105.004/6031802:user/release
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.superior.maintainer=henmadx
