@@ -21,18 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common i-o-n OS stuff.
-$(call inherit-product, vendor/ion/config/common_full_phone.mk)
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common Superior OS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
+
+#Target Bootnim
 TARGET_BOOT_ANIMATION := 1440
-ION_BUILD_TYPE := OFFICIAL
-ION_RELEASE_TYPE := Release
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.ion.maintainer = "NitroFuN"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := ion_vince
+PRODUCT_NAME := superior_vince
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ion_vince.mk
+    $(LOCAL_DIR)/superior_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    ion_vince-user \
-    ion_vince-userdebug \
-    ion_vince-eng
+    superior_vince-user \
+    superior_vince-userdebug \
+    superior_vince-eng
